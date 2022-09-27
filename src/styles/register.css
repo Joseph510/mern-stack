@@ -1,0 +1,30 @@
+.signup-container {
+    min-height: 100vh;
+}
+
+
+.signup-row:first-child {
+    margin: 10px 0 40px 0;
+}
+.signup-title {
+    text-align: center;
+    box-shadow: 0 0 15px #000000;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+.signup-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup-col form {
+   width: 300px;
+}
+
+.signup-col form .form-group button {
+    width: max-content;
+    display: block;
+    margin: 0 auto;
+}
